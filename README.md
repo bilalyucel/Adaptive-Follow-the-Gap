@@ -11,7 +11,7 @@
 ### Obstacle Avoidance Algorithm
 - There are many obstacle avoidance method exist in the literature however one recent noval approach "Follow the Gap" method is chosen because it is efficient and easy to use. Also, it has developed with a fuzzy logic controller. For details, please check https://www.sciencedirect.com/science/article/abs/pii/S0921889012000838
 - "Improved Follow the Gap" is also applied to the system for improvments. For details, please check https://ieeexplore.ieee.org/document/8014220
-- # An adaptive distance fuzzy logic controller is designed to improve the method because there was a missing critical point of it which can be explained as if there is an obstacle near to the goal point due to the method vehicle can never reach the target.
+- ### An adaptive distance fuzzy logic controller is designed to improve the method because there was a missing critical point of it which can be explained as if there is an obstacle near to the goal point due to the method vehicle can never reach the target.
 
 ### Mapping
 - As mentioned, vehicle would perform mapping as well with camera. There are several methods for mapping however "Octomapping" is chosen for our purposes. It will be used as a open-source package no code would written for it.
