@@ -17,6 +17,7 @@
 2. Early consideration of obstacles causes long trajectories.
 ![long_traj](https://user-images.githubusercontent.com/63864726/132513169-2166862e-a57d-416d-b0dd-0cfccab25597.jpg)
 - To solve these drawbacks, a fuzzy controlled adaptive consideration radius will be tuned based on 2 parameters that are distance to the goal and angle between nearest obstacle. As the vehicle moves to the target, consideration radius gets smaller thus even an obstacle exist near to the goal point, the vehicle will be able to reach it. Also, the algorithm considers the obstacle right in time so the vehicle will move in the hypotenuse resulting a shorter trajectory.
+
 ![Rule_table](https://user-images.githubusercontent.com/63864726/132514328-0c503d38-77b8-4071-8cd4-e8138da00f77.png)
 ![memberships](https://user-images.githubusercontent.com/63864726/132513388-9e630adf-79a6-415c-858e-8995cb4940db.jpg)
 ### Mapping
