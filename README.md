@@ -61,6 +61,9 @@ rosrun scripts myMethod.py
 rviz
 ```
 ### Results
+Failure problem of reaching goal when a near obstacle exist around to target of FGM and FGM-I methods is resolved and overall efficiency is increased. The newly developed A-FGM approach adds a new parameter that is a consideration radius, to the previous methods. Now, the algorithm considers only obstacles within this radius which is tuned by a fuzzy logic controller that takes distance to the goal point and the angle of nearest obstacle as input and produces the consideration radius as output. With this modification, the vehicle can reach the goal point even if there is a near obstacle because the consideration radius gets smaller as the vehicle approaches the target. Also, the approach shortens the trajectory as it continues in the shortest path longer. These improvements are tested on possible cases to prove the algorithm.
+![goal_suc](https://user-images.githubusercontent.com/63864726/132517794-7efa47a8-90c1-4a0d-a912-b4870a1245fe.jpg)
+![long_traj_suc](https://user-images.githubusercontent.com/63864726/132517811-8e95299b-2d50-4b24-9eef-7a74495d13dd.jpg)
 
 
 ### Demo
