@@ -14,7 +14,7 @@
 - ### An adaptive distance fuzzy logic controller is designed to improve the method because there was a missing critical point of it which can be explained as if there is an obstacle near to the goal point due to the method vehicle can never reach the target.
 
 ### Mapping
-- As mentioned, vehicle would perform mapping as well with camera. There are several methods for mapping however "Octomapping" is chosen for our purposes. It will be used as a open-source package no code would written for it.
+- As mentioned, vehicle would perform mapping as well with camera. There are several methods for mapping however "Octomapping" is chosen for our purposes. It will be used as a open-source package no code would be written for it.
 
 ### Requirements
 - Install Ubuntu 16.04
@@ -24,8 +24,12 @@
 
 ### How to run
 - Spawn Husky Robot
+>cd husky_ws
+>roslaunch husky_gazebo husky_empty_world.launch
 - Launch depthimage_to_laserscan node
+>roslaunch deptimage_to_laserscan dept_to_laser1.launch
 - Run myMethod
+>rosrun scripts myMethod.py
 
 ### Demo
 [![Graduation_Project](https://img.youtube.com/vi/wMMFzKAfvjo/0.jpg)](https://www.youtube.com/watch?v=wMMFzKAfvjo)
