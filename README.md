@@ -24,10 +24,10 @@
 
 ### How to run
 - Spawn Husky Robot
->cd husky_ws
->roslaunch husky_gazebo husky_empty_world.launch
+'cd husky_ws'
+'roslaunch husky_gazebo husky_empty_world.launch'
 - Launch depthimage_to_laserscan node
->roslaunch deptimage_to_laserscan dept_to_laser1.launch
+'roslaunch deptimage_to_laserscan dept_to_laser1.launch'
 - Run myMethod
 >rosrun scripts myMethod.py
 
