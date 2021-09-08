@@ -23,12 +23,18 @@
 - Install Matlab Fuzzy Logic Toolbox
 
 ### How to run
-- Spawn Husky Robot```
+- Spawn Husky Robot
+```
 cd husky_ws
 roslaunch husky_gazebo husky_empty_world.launch
-- Launch depthimage_to_laserscan node```
+```
+- Launch depthimage_to_laserscan node
+```
 roslaunch deptimage_to_laserscan dept_to_laser1.launch
-- Run myMethod```
-rosrun scripts myMethod.py```
+```
+- Run myMethod
+```
+rosrun scripts myMethod.py
+```
 ### Demo
 [![Graduation_Project](https://img.youtube.com/vi/wMMFzKAfvjo/0.jpg)](https://www.youtube.com/watch?v=wMMFzKAfvjo)
