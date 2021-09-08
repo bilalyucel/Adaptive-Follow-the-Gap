@@ -13,17 +13,19 @@
 - "Improved Follow the Gap" is also applied to the system for improvments. For details, please check https://ieeexplore.ieee.org/document/8014220
 - For my project, an adaptive distance fuzzy logic controller is designed to improve the method because there were two missing critical points.
 1. Fail of reaching the goal point when there is an obstacle near to it.
+![goal_fail](https://user-images.githubusercontent.com/63864726/132513117-da7c7ca4-6ca8-4013-a896-8bcffaa6523a.jpg)
 2. Early consideration of obstacles causes long trajectories.
+![long_traj](https://user-images.githubusercontent.com/63864726/132513169-2166862e-a57d-416d-b0dd-0cfccab25597.jpg)
 - To solve these drawbacks, a fuzzy controlled adaptive consideration radius will be tuned based on 2 parameters that are distance to the goal and angle between nearest obstacle. As the vehicle moves to the target, consideration radius gets smaller thus even an obstacle exist near to the goal point, the vehicle will be able to reach it. Also, the algorithm considers the obstacle right in time so the vehicle will move in the hypotenuse resulting a shorter trajectory.
-
+![memberships](https://user-images.githubusercontent.com/63864726/132513388-9e630adf-79a6-415c-858e-8995cb4940db.jpg)
 ### Mapping
 - As mentioned, vehicle would perform mapping as well with camera. There are several methods for mapping however "Octomapping" is chosen for our purposes. It will be used as a open-source package no code would be written for it.
 
 ### Requirements
-- Install Ubuntu 16.04
-- Install ROS Kinetic
-- Install Clearpath Husky Robot
-- Install Matlab Fuzzy Logic Toolbox
+- Install Ubuntu 16.04 (https://releases.ubuntu.com/16.04/)
+- Install ROS Kinetic (http://wiki.ros.org/kinetic/Installation/Ubuntu)
+- Install Clearpath Husky Robot (https://github.com/husky/husky/tree/kinetic-devel)
+- Install Matlab Fuzzy Logic Toolbox (https://www.mathworks.com/help/fuzzy/fuzzylogiccontroller.html)
 
 ### How to run
 - Clone this repository to your husky workspace(husky_ws). After you cloned, don't forget to make
@@ -56,6 +58,8 @@ rosrun scripts myMethod.py
 ```
 rviz
 ```
+### Results
+
 
 ### Demo
 [![Graduation_Project](https://img.youtube.com/vi/wMMFzKAfvjo/0.jpg)](https://www.youtube.com/watch?v=wMMFzKAfvjo)
