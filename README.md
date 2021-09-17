@@ -83,7 +83,5 @@ Failure problem of reaching goal when a near obstacle exist around to target of 
 
 
 ### Demo
-<p align="center">
-  <img src="https://img.youtube.com/vi/wMMFzKAfvjo/0.jpg)](https://www.youtube.com/watch?v=wMMFzKAfvjo" />
-</p>
+[![Graduation_Project](https://img.youtube.com/vi/wMMFzKAfvjo/0.jpg)](https://www.youtube.com/watch?v=wMMFzKAfvjo)
 
