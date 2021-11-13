@@ -43,6 +43,7 @@
 
 ### How to run
 - Clone this repository to your husky workspace(husky_ws). After you cloned, don't forget to make
+- sudo apt-get install ros-melodic-depthimage-to-laserscan
 ```
 catkin_make
 ```
