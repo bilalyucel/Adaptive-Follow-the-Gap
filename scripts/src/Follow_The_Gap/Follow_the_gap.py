@@ -30,7 +30,7 @@ class FollowtheGap():
 		self.gap_list=[]
 		self.old_list=[]
 
-		self.x=0.0
+		self.x=0.0	# Initial position of the robot
 		self.y=0.0
 		self.poseCorrect=False
 		self.avoidObs=False
